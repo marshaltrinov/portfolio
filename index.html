@@ -1,23 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | RetroNova Style</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Web Developer & Designer</p>
-  </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects/project1.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Bringing Ideas to Life with Creative Design and Development</p>
+        </div>
+    </header>
+
+    <!-- Projects Preview Section -->
+    <section class="projects-preview">
+        <h2>My Work</h2>
+        <div class="project-gallery">
+            <div class="project-item">
+                <a href="projects/project1.html">
+                    <img src="assets/images/project1.jpg" alt="Project 1">
+                    <div class="project-overlay">
+                        <h3>Project 1</h3>
+                        <p>A creative web development project</p>
+                    </div>
+                </a>
+            </div>
+            <div class="project-item">
+                <a href="projects/project2.html">
+                    <img src="assets/images/project2.jpg" alt="Project 2">
+                    <div class="project-overlay">
+                        <h3>Project 2</h3>
+                        <p>Another unique design solution</p>
+                    </div>
+                </a>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
 </body>
 </html>
